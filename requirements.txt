@@ -1,6 +1,7 @@
 asgiref==3.5.2
+decouple==0.0.7
 Django==3.2
+fontawesome==5.10.1.post1
 pytz==2022.1
 sqlparse==0.4.2
-fontawesome==5.10.1.post1
-
+validate-email==1.3
