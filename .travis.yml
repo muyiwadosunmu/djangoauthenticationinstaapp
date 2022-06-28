@@ -6,9 +6,9 @@ env:
     - SECRET_KEY='TEST'
 services:
     - postgresql
-    
+
 install:
-    - pip3 install
+    - pip3 install -r requirements.txt
 
 script:
     - python manage.py test
