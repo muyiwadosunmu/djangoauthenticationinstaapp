@@ -11,8 +11,8 @@ install:
     - pip3 install -r requirements.txt
 
 script:
-    - coverage run --source ="authentication" manage.py test && coverage report 
+    - coverage run --source ="authentication"python3 manage.py test && coverage
 
 after_success:
     - codecov
-
+    
