@@ -8,7 +8,7 @@ services:
     - postgresql
 
 install:
-    - pip3 install
+    - pip3 install -r requirements.txt
 
 script:
     - python3 manage.py test
