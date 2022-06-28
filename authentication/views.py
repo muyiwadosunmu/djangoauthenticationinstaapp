@@ -126,9 +126,6 @@ class LoginView(View):
             return render(request, 'auth/login.html', context=context, status=401)
         login(request,user)
         return redirect('home')
-                
-            
-        return render(request, 'auth/login.html')
 
 class ActivateAccountView(View):
     def get(self, request, uidb64, token):
