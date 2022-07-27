@@ -1,0 +1,1 @@
+web gunicorn djangoauthapp.wsgi:application --log-file -
